@@ -1,0 +1,32 @@
+
+/*  Footer section */
+.endd{
+    background-color: black;
+    height:300px;
+ }
+ .endd-img{
+ text-align: center;
+ padding-top: 70px;
+ margin-bottom:30px;
+ }
+ .endd-icons{
+    text-align: center;
+ }
+ .endd-icons i{
+    background-color: var(--maincolor);
+    color: var(--white);
+    font-size: 20px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    margin: 5px;
+    border-radius: 50%;
+ 
+ }
+ .endd-desc{
+    color: var(--graycolor);
+    text-transform: uppercase;
+    text-align: center;
+    margin-top:25px;
+    display: block;
+ }

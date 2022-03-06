@@ -1,0 +1,43 @@
+
+
+   /* test section */
+
+   .test{
+    background: url(../images/background/background3.webp);
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+  height:400px;
+ }
+ .test-item{
+    float: left;
+    width:50%;
+ 
+ }
+ .test-info{
+    overflow: hidden;
+    padding:120px 0px;
+    color: var(--white);
+    width: 80%;
+    margin:auto;
+ }
+ .test-item-toplayer{
+    padding:10px 20px 40px 90px;
+    position: relative;
+ }
+ .test-item-toplayer img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 50%;
+
+ }
+
+.test-item-toplayer span{
+  color: var(--maincolor);
+}
+.test-item-desc{
+  line-height: 1.5;
+  font-size: 17px;
+}
+

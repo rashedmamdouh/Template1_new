@@ -1,0 +1,81 @@
+
+
+/*  contact section */
+.contact-info{
+    overflow:hidden;
+ }
+ .contact-item{
+  float:left;
+  width:30%;
+  text-align: center;
+ }
+ .contact-item i{
+    color:var(--maincolor);
+    padding:10px;
+    font-size: 45px;
+ }
+ .contact-item h3{
+    padding:10px;
+ }
+ .contact-item span{
+ line-height: 1.6;
+    color: var(--graycolor);
+ }
+ .contact-user{
+   margin:50px auto;
+   width:70%;
+ 
+ }
+ #name , #email {
+    width:49%;
+    height:50px;
+    display: inline-block;
+    float:left;
+ }
+ #subject , #message{
+    display: block;
+    width:100%;
+ }
+ #subject , #message, #name , #email{
+    background-color:var(--bggray);
+    border:none;
+    color:#e8e8e8;
+    padding:10px;
+    color:#333;
+ }
+ 
+ #subject, #name , #email{
+    height:50px;
+ }
+ #message{
+    height:100px;
+ 
+ }
+ .contact-user input{
+    margin-bottom:10px;
+    
+ }
+ ::placeholder{
+    color:var(--graycolor);
+ }
+ #name{
+    margin-right: 2% ;
+ }
+ .contact-user-button{
+    text-align: center;
+    height:50px;
+    width:200px;
+    background-color: var(--maincolor);
+    color: var(--white);
+    border:none;
+    display:block;
+    margin:auto;
+    font-size:16px;
+    margin-top:25px;
+ }
+ .contact-user-button:hover{
+    opacity:0.8;
+ }
+ 
+ 
+ 

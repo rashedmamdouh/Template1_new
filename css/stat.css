@@ -1,0 +1,39 @@
+
+
+/* Statistics section */
+.stat{
+    position: relative;
+    background:url(../images/background/background2.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    height:300px;
+ }
+ .item{
+    float:left;
+    width:25%;
+    text-align: center;
+ }
+ .stat-info{
+ overflow:hidden;
+ text-align:center;
+ padding:100px 0px;
+ }
+ .item i{
+    color:var(--maincolor);
+    margin-bottom: 15px;
+ }
+ .item-title{
+    font-weight:bold;
+    font-size:25px;
+    margin-bottom: 15px;
+    color: var(--white);
+ }
+ .item-text{
+    color: var(--white);
+ }
+ 
+ 
+ 
+ 
+ 
+ 
